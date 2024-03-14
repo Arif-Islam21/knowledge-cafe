@@ -4,9 +4,9 @@
     "cover": "https://i.ibb.co/NnY9crX/4210817.jpg",
     "title": "The Enigmatic Odyssey",
     "author": "Cassandra Moon",
-    "author-img": "author_image_1.jpg",
-    "posted-date": "2024-03-14",
-    "reading-time": 12,
+    "author_img": "https://i.ibb.co/NnY9crX/4210817.jpg",
+    "posted_date": "2024-03-14",
+    "reading_time": 12,
     "hashtags": ["#Adventure", "#Mystery", "#Fantasy"]
   },
   {
@@ -14,9 +14,9 @@
     "cover": "https://i.ibb.co/6NpGNpm/dark-coffee-beans-bowl-brown-table.jpg",
     "title": "Echoes of Eternity",
     "author": "Xavier Nightingale",
-    "author-img": "author_image_2.jpg",
-    "posted-date": "2024-03-13",
-    "reading-time": 20,
+    "author_img": "https://i.ibb.co/6NpGNpm/dark-coffee-beans-bowl-brown-table.jpg",
+    "posted_date": "2024-03-13",
+    "reading_time": 20,
     "hashtags": ["#SciFi", "#TimeTravel", "#Thriller"]
   },
   {
@@ -24,9 +24,9 @@
     "cover": "https://i.ibb.co/gdnFQ1p/front-view-cup-cappuccino-with-cookies-book-table.jpg",
     "title": "Whispers in the Shadows",
     "author": "Serena Silver",
-    "author-img": "author_image_3.jpg",
-    "posted-date": "2024-03-12",
-    "reading-time": 15,
+    "author_img": "https://i.ibb.co/gdnFQ1p/front-view-cup-cappuccino-with-cookies-book-table.jpg",
+    "posted_date": "2024-03-12",
+    "reading_time": 15,
     "hashtags": ["#Horror", "#Suspense", "#Gothic"]
   },
   {
@@ -34,9 +34,9 @@
     "cover": "https://i.ibb.co/TcHqwG9/Real-Estate-Facebook-Cover-Banner-15.jpg",
     "title": "Serenade of the Stars",
     "author": "Apollo Drake",
-    "author-img": "author_image_4.jpg",
-    "posted-date": "2024-03-11",
-    "reading-time": 18,
+    "author_img": "https://i.ibb.co/TcHqwG9/Real-Estate-Facebook-Cover-Banner-15.jpg",
+    "posted_date": "2024-03-11",
+    "reading_time": 18,
     "hashtags": ["#Romance", "#Adventure", "#SpaceOpera"]
   },
   {
@@ -44,9 +44,9 @@
     "cover": "https://i.ibb.co/TcHqwG9/Real-Estate-Facebook-Cover-Banner-15.jpg",
     "title": "Chronicles of the Crystal Kingdom",
     "author": "Aurora Frost",
-    "author-img": "author_image_5.jpg",
-    "posted-date": "2024-03-10",
-    "reading-time": 25,
+    "author_img": "https://i.ibb.co/TcHqwG9/Real-Estate-Facebook-Cover-Banner-15.jpg",
+    "posted_date": "2024-03-10",
+    "reading_time": 25,
     "hashtags": ["#Fantasy", "#Magic", "#Epic"]
   }
 ]
