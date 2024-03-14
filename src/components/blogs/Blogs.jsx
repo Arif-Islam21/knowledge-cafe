@@ -12,8 +12,7 @@ const Blogs = () => {
   }, []);
 
   return (
-    <div className="md:w-2/3">
-      <h2>Hello from blogs {blogs.length}</h2>
+    <div className="md:w-2/3 mt-12">
       {/* {blogs.map((blog) => {
         <Blog blog={blog}></Blog>;
       })} */}

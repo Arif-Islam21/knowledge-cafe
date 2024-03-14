@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { CiBookmark } from "react-icons/ci";
 
 const Blog = ({ blog }) => {
   const {
@@ -11,10 +12,10 @@ const Blog = ({ blog }) => {
     hashtags,
   } = blog;
   return (
-    <div>
-      <img className="w-80 h-80" src={cover} alt={title} />
+    <div className="mb-20">
+      <img className="w-full mb-8 h-80" src={cover} alt={title} />
       <div className="flex justify-between">
-        <div className="flex gap-6">
+        <div className="flex my-2 gap-6">
           <img
             className="w-12 h-12 mt-4 rounded-full"
             src={author_img}
@@ -30,11 +31,14 @@ const Blog = ({ blog }) => {
             ))}
           </div>
         </div>
-        <div>
+        <div className="flex items-center">
           <span>{reading_time} minuite Read</span>
+          <button className="ml-2 text-red-400 text-2xl">
+            <CiBookmark />
+          </button>
         </div>
       </div>
-      <div className="text-4xl">{title}</div>
+      <div className="text-4xl mt-2 font-bold">{title}</div>
     </div>
   );
 };
