@@ -8,7 +8,9 @@ function App() {
   const [bookmarks, setBookmarks] = useState([]);
 
   const handleAddToBookmark = (blog) => {
-    console.log("Bookmark adding soon");
+    // console.log("Bookmark adding soon", blog);
+    const newBookmarks = [...bookmarks, blog];
+    setBookmarks(newBookmarks);
   };
 
   return (
@@ -16,7 +18,7 @@ function App() {
       <Header></Header>
       <main className="md:flex max-w-6xl gap-x-4  mx-auto">
         <Blogs handleAddToBookmark={handleAddToBookmark}></Blogs>
-        <Bookmark></Bookmark>
+        <Bookmark bookmarks={bookmarks}></Bookmark>
       </main>
     </>
   );
