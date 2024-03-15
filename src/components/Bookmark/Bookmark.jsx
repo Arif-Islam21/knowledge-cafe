@@ -5,13 +5,13 @@ const Bookmark = ({ bookmark }) => {
 
   return (
     <div>
-      <h3 className="text-3xl">{title}</h3>
+      <h3 className="text-3xl mt-2">{title}</h3>
     </div>
   );
 };
 
 Bookmark.propTypes = {
-  bookmark: Proptypes.object.isRequired,
+  bookmark: Proptypes.object,
 };
 
 export default Bookmark;

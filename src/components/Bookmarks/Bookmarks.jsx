@@ -16,4 +16,4 @@ Bookmarks.propTypes = {
   bookmarks: PropTypes.array.isRequired,
 };
 
-export default Bookmark;
+export default Bookmarks;
