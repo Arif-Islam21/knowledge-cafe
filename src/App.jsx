@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Bookmark from "./components/Bookmarks/Bookmark";
+import Bookmark from "./components/Bookmarks/Bookmarks";
 import Header from "./components/Header/Header";
 import Blogs from "./components/blogs/Blogs";
 
